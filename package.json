@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "slc run",
+    "start": "node server/server.js",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
