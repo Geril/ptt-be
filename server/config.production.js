@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  host: 'testing',
-  port: process.env.process.env.PORT,
+  host: process.env.HOST,
+  port: process.env.PORT,
 };
